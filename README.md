@@ -22,7 +22,39 @@ On the first day, I explored fundamental concepts related to vectors and matrice
 - Matrix operations (addition, subtraction, multiplication)  
 - Properties of matrices  
 - **Determinant** and its role  
-- **Inverse of a matrix**  
+- **Inverse of a matrix**
+
+
+## Day 2: Linear Algebra & ML Basics 🚀  
+
+### 🔢 Linear Algebra Concepts:  
+- Basis Vectors, Linear Transformations (2D & 3D)  
+- Matrix Multiplication, Determinants & Inverses  
+
+### 🤖 Introduction to Machine Learning:  
+- **Supervised Learning** (Regression, Classification)  
+- **Unsupervised Learning** (Clustering, Anomaly Detection)  
+- **Reinforcement Learning** (Reward-based Learning)  
+
+### ⚠️ Overfitting vs. Underfitting:  
+| Issue         | Definition | Solution |
+|--------------|-----------|----------|
+| Overfitting  | Memorizes training data, fails on new data | Reduce complexity, more data, regularization |
+| Underfitting | Too simple, fails on both train & test | Increase model complexity, better features |
+
+### 🔄 Data Challenges:  
+1️⃣ Poor Quality & Irrelevant Features  
+2️⃣ Insufficient or Non-Representative Training Data  
+3️⃣ Data Mismatch (Train vs. Real-world Data)  
+
+## 📂 Working with JSON & SQL (Pandas)  
+
+### ✅ Read & Write JSON:  
+```python
+import pandas as pd  
+df = pd.read_json("data.json")  
+df.to_json("output.json", orient="records", indent=4)
+```
 
 ---
 
