@@ -55,6 +55,20 @@ import pandas as pd
 df = pd.read_json("data.json")  
 df.to_json("output.json", orient="records", indent=4)
 ```
+📅 Day 3: Simple Linear Regression & My First Model
+
+Today, I learned about Simple Linear Regression, a fundamental concept in machine learning.
+📌 Key Learnings:
+
+ -  Understanding Linear Regression: Predicting a dependent variable (Y) based on an independent variable (X).
+
+ - Equation of Regression Line:
+ -   Y=mX+cY=mX+c
+ -  where m is the slope and c is the intercept.
+
+ - Training My First Model: Used Scikit-learn to create and train a linear regression model.
+
+ -  Visualizing Results: Plotted regression line to understand predictions.
 
 ---
 
