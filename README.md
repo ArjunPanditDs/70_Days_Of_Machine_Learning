@@ -60,15 +60,27 @@ df.to_json("output.json", orient="records", indent=4)
 Today, I learned about Simple Linear Regression, a fundamental concept in machine learning.
 📌 Key Learnings:
 
-    Understanding Linear Regression: Predicting a dependent variable (Y) based on an independent variable (X).
+- Understanding Linear Regression: Predicting a dependent variable (Y) based on an independent variable (X).
 
-    Equation of Regression Line:
-    Y=mX+cY=mX+c
-    where m is the slope and c is the intercept.
+  - Equation of Regression Line:
+  - Y=mX+c
+  - where m is the slope(tan theta) and c is the intercept(output) and x it the input.
 
-    Training My First Model: Used Scikit-learn to create and train a linear regression model.
+  - Training My First Model: Used Scikit-learn to create and train a linear regression model.
 
-    Visualizing Results: Plotted regression line to understand predictions.
+- Visualizing Results: Plotted regression line to understand predictions.
+## Day 4: Regression Metrics
+
+- Today, I learned about key regression metrics used to evaluate model performance:
+
+  - Mean Absolute Error (MAE) → Average absolute difference between actual and predicted values.
+
+  - Mean Squared Error (MSE) → Squared differences, penalizing larger errors.
+
+  - Root Mean Squared Error (RMSE) → Square root of MSE, keeping units consistent.
+
+  - R² Score → Measures how well the model explains variance (closer to 1 is better).
+  - Adjusted R2 Score
 
 ---
 
