@@ -60,6 +60,7 @@ df.to_json("output.json", orient="records", indent=4)
 Today, I learned about Simple Linear Regression, a fundamental concept in machine learning.
 📌 Key Learnings:
 
+<<<<<<< HEAD
  -  Understanding Linear Regression: Predicting a dependent variable (Y) based on an independent variable (X).
 
  - Equation of Regression Line:
@@ -69,6 +70,17 @@ Today, I learned about Simple Linear Regression, a fundamental concept in machin
  - Training My First Model: Used Scikit-learn to create and train a linear regression model.
 
  -  Visualizing Results: Plotted regression line to understand predictions.
+=======
+    Understanding Linear Regression: Predicting a dependent variable (Y) based on an independent variable (X).
+
+    Equation of Regression Line:
+    Y=mX+cY=mX+c
+    where m is the slope and c is the intercept.
+
+    Training My First Model: Used Scikit-learn to create and train a linear regression model.
+
+    Visualizing Results: Plotted regression line to understand predictions.
+>>>>>>> 1292782 (Day 4: Regression Metrics)
 
 ---
 
