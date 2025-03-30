@@ -55,7 +55,8 @@ import pandas as pd
 df = pd.read_json("data.json")  
 df.to_json("output.json", orient="records", indent=4)
 ```
-📅 Day 3: Simple Linear Regression & My First Model
+## 📅 Day 3: Simple Linear Regression & My First Model
+<<<<<<< HEAD
 
 Today, I learned about Simple Linear Regression, a fundamental concept in machine learning.
 📌 Key Learnings:
@@ -80,8 +81,22 @@ Today, I learned about Simple Linear Regression, a fundamental concept in machin
     Training My First Model: Used Scikit-learn to create and train a linear regression model.
 
     Visualizing Results: Plotted regression line to understand predictions.
->>>>>>> 1292782 (Day 4: Regression Metrics)
 
+## Day 4 - Regression Metrics  
+
+- Learned key **regression evaluation metrics**:  
+  - **Mean Squared Error (MSE)**  
+  - **Mean Absolute Error (MAE)**  
+  - **Root Mean Squared Error (RMSE)**  
+  - **R² Score (Coefficient of Determination)**  
+- Implemented these metrics in **Python** to evaluate regression models.  
+
+## Day 5 - Multiple Linear Regression  
+
+- Learned the fundamentals of **Multiple Linear Regression**.  
+- Built a model to predict **sales revenue** based on TV, radio, and newspaper advertising budgets.  
+- Implemented the model using **Scikit-Learn** and evaluated performance using **R² score & MSE**.  
+- Visualized the regression plane in **3D** to understand feature impact.
 ---
 
 This marks the beginning of my **70 Days of Machine Learning** journey! 🚀 Stay tuned for more updates.  
