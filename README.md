@@ -97,6 +97,19 @@ Today, I learned about Simple Linear Regression, a fundamental concept in machin
 - Built a model to predict **sales revenue** based on TV, radio, and newspaper advertising budgets.  
 - Implemented the model using **Scikit-Learn** and evaluated performance using **R² score & MSE**.  
 - Visualized the regression plane in **3D** to understand feature impact.
+
+🚀 Day 6: Gradient Descent & Stochastic Gradient Descent (SGD)
+📌 Concepts Covered:
+
+    Understanding Gradient Descent – an optimization algorithm used to minimize the cost function in machine learning models.
+
+    Types of Gradient Descent:
+
+        Batch Gradient Descent – Uses the entire dataset for each update.
+
+        Stochastic Gradient Descent (SGD) – Updates weights using a single random sample per iteration, making it faster but noisier.
+
+        Mini-Batch Gradient Descent – A balance between batch GD and SGD.
 ---
 
 This marks the beginning of my **70 Days of Machine Learning** journey! 🚀 Stay tuned for more updates.  
